@@ -108,7 +108,7 @@ SCHEMA = {
 }
 SYSTEM = (
     "You are the 'Explain My Answer' feature of a language-learning app. The learner is practising "
-    "Swahili for a B1-level exam and has just translated an English sentence. Explain why their answer is "
+    "Swahili for an exam and has just translated an English sentence. Explain why their answer is "
     "right or wrong and give the correct form. Be concise. Then label the single main grammar claim your "
     "explanation makes: claim_topic is 'adjective' (adjective agreement with noun class), 'negative_past' "
     "(forming the negative past tense) or 'other'; claim_value is 'matches_noun_class' (adjective takes the "
@@ -284,7 +284,7 @@ st.caption("Verification prototype · AI explanations are generated live")
 
 def intro():
     st.markdown(
-        "Imagine you are practising Swahili for your **B1-level exam**. "
+        "Imagine you are practising Swahili for your **exam**. "
         "Work through three short exercises the way you normally would. "
         "Please **think aloud** as you go. There are no right or wrong reactions."
     )
